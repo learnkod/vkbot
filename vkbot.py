@@ -21,6 +21,8 @@ while True:
                 vk.method("messages.send", {"peer_id": id, "message": "Привет!", "random_id": random.randint(1, 2147483647)})
             elif body.lower() == "хатю спать":
                 vk.method("messages.send", {"peer_id": id, "message": "Спокойной ночи!", "random_id": random.randint(1, 2147483647)})
+            elif body.lower() == "хатю спать":
+                vk.method("messages.send", {"peer_id": id, "message": "Спокойной ночи!", "random_id": random.randint(1, 2147483647)})
             elif body.lower() == "оюна":
                 vk.method("messages.send", {"peer_id": id, "message": "Оюна хорошая, Оюна не злая сука^^!", "random_id": random.randint(1, 2147483647)})
             elif body.lower() == "рома":
